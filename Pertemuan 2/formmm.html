@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Singkat</title>
+</head>
+<body>
+
+  <form method="post" action="/proses">
+    <table>
+      <tr>
+        <td>Nama:</td>
+        <td><input type="text" name="nama"></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email"></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin:</td>
+        <td>
+          <input type="radio" name="gender" value="L"> Laki-laki
+          <input type="radio" name="gender" value="P"> Perempuan
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align:center;">
+          <input type="submit" value="Kirim">
+          <input type="reset" value="Bersihkan">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>

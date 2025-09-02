@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kartu Keluarga</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .kk-container {
+      border: 1px solid #000;
+      padding: 15px;
+      width: 780px;
+      box-sizing: border-box;
+    }
+    h2 {
+      text-align: center;
+      margin: 5px 0 15px 0;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      margin-bottom: 15px;
+      line-height: 1.4;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 15px;
+      table-layout: fixed;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 4px 6px;
+      text-align: center;
+      word-wrap: break-word;
+    }
+    th {
+      font-size: 10px;
+      background: #f9f9f9;
+    }
+    .foot {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      font-size: 11px;
+    }
+    .foot div {
+      text-align: center;
+      width: 40%;
+    }
+    .sign-space {
+      margin-top: 50px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="kk-container">
+    <h2>KARTU KELUARGA</h2>
+
+    <!-- Header Info -->
+    <div class="header">
+      <div>
+        Nama Kepala Keluarga: THAMRIN<br>
+        Alamat: POLEWALI<br>
+        RT/RW: 00/00<br>
+        Desa/Kelurahan: KUAJANG
+      </div>
+      <div>
+        Kecamatan: POLEWALI<br>
+        Kabupaten/Kota: POLEWALI MANDA<br>
+        Kode Pos: 55573<br>
+        Provinsi: SULAWESI BARAT
+      </div>
+    </div>
+
+    <!-- Tabel Anggota Keluarga -->
+    <table>
+      <tr>
+        <th style="width:5%;">No</th>
+        <th style="width:18%;">Nama Lengkap</th>
+        <th style="width:15%;">NIK</th>
+        <th style="width:10%;">Jenis Kelamin</th>
+        <th style="width:10%;">Tempat Lahir</th>
+        <th style="width:10%;">Tanggal Lahir</th>
+        <th style="width:7%;">Agama</th>
+        <th style="width:10%;">Pendidikan</th>
+        <th style="width:15%;">Pekerjaan</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>THAMRIN</td>
+        <td>3404080601860001</td>
+        <td>Laki-laki</td>
+        <td>POLEWALI</td>
+        <td>06-01-1986</td>
+        <td>Islam</td>
+        <td>S1</td>
+        <td>WIRASWASTA</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ASMAH MADA ALI M</td>
+        <td>3404086201900001</td>
+        <td>Perempuan</td>
+        <td>POLEWALI</td>
+        <td>02-04-1989</td>
+        <td>Islam</td>
+        <td>S1</td>
+        <td>IRT</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>NADIA RESKY AMANDA PUTRI</td>
+        <td>3404081204160001</td>
+        <td>Perempuan</td>
+        <td>POLEWALI</td>
+        <td>12-04-2006</td>
+        <td>Islam</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>NURUL FADILA</td>
+        <td>3404081204200001</td>
+        <td>Perempuan</td>
+        <td>POLEWALI</td>
+        <td>15-08-2009</td>
+        <td>Islam</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>NADIA MUTIARA RAMADANI</td>
+        <td>3404081204230001</td>
+        <td>Perempuan</td>
+        <td>POLEWALI</td>
+        <td>20-10-2012</td>
+        <td>Islam</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+    </table>
+
+    <!-- Tabel Status Keluarga -->
+    <table>
+      <tr>
+        <th style="width:5%;">No</th>
+        <th style="width:13%;">Status Perkawinan</th>
+        <th style="width:18%;">Hubungan Keluarga</th>
+        <th style="width:8%;">Kewarganegaraan</th>
+        <th style="width:10%;">No. Paspor</th>
+        <th style="width:10%;">No. KITAS/KITAP</th>
+        <th style="width:18%;">Nama Ayah</th>
+        <th style="width:18%;">Nama Ibu</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Kawin</td>
+        <td>Kepala Keluarga</td>
+        <td>WNI</td>
+        <td>-</td>
+        <td>-</td>
+        <td>MAMING</td>
+        <td>ARAFAH</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Kawin</td>
+        <td>Istri</td>
+        <td>WNI</td>
+        <td>-</td>
+        <td>-</td>
+        <td>MADA ALI M</td>
+        <td>HJ.FATIMAH</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Belum Kawin</td>
+        <td>Anak</td>
+        <td>WNI</td>
+        <td>-</td>
+        <td>-</td>
+        <td>THAMRIN</td>
+        <td>ASMAH MADA ALI M</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Belum Kawin</td>
+        <td>Anak</td>
+        <td>WNI</td>
+        <td>-</td>
+        <td>-</td>
+        <td>THAMRIN</td>
+        <td>ASMAH MADA ALI M</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Belum Kawin</td>
+        <td>Anak</td>
+        <td>WNI</td>
+        <td>-</td>
+        <td>-</td>
+        <td>THAMRIN</td>
+        <td>ASMAH MADA ALI M</td>
+      </tr>
+    </table>
+
+    <!-- Tanda Tangan -->
+    <div class="foot">
+      <div>
+        Kepala Keluarga
+        <span class="sign-space">THAMRIN</span>
+      </div>
+      <div>
+        Desa/Kelurahan POLEWALI MANDAR<br>
+        Tanggal: 02-09-2025<br>
+        Kepala Desa/Lurah
+        <span class="sign-space">KUAJANG</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
