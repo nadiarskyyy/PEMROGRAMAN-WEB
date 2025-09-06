@@ -30,11 +30,4 @@ Dibuat menggunakan **HTML, CSS (Tailwind), AOS.js, dan JavaScript** untuk pengal
 - Desain menyesuaikan berbagai ukuran layar (mobile, tablet, desktop).  
 - Banyak interaktivitas dengan **hover effects & animasi halus**.
 
----
-
-## ✅ Kesimpulan
-💡 Website ini adalah **portfolio modern, profesional, dan interaktif**.  
-✨ Cocok untuk menunjukkan kemampuan seorang **Computer Engineering Student** secara **visual & menarik**.
-
----
-
+## TERIMA KASIHH
