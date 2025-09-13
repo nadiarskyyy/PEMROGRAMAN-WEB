@@ -34,6 +34,7 @@ untuk mendukung animasi saat pengguna melakukan scroll.
     <li><a href="#ideas" class="hover:text-blue-500">Ideas</a></li>
     <li><a href="#hobbies" class="hover:text-blue-500">Hobbies</a></li>
     <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+    <li><a href="#gallery" class="hover:text-blue-500">Gallery</a></li>
   </ul>
 </nav>
 Analisis : Navbar menggunakan posisi fixed (fixed top-0 w-full) sehingga selalu terlihat
@@ -53,11 +54,35 @@ tengah dengan Flexbox (flex items-center justify-center).Latar belakang mengguna
 untuk memberikan kesan profesional.
 
 ```
-### 4.Section Tambahan (Learning, Ideas, Hobbies, Contact)
+### 4.Section Tambahan (Learning, Ideas, Hobbies, Contact, Gallery)
 ```html
 <section id="learning" class="py-20 text-center" data-aos="fade-up">
   <h2 class="text-3xl font-semibold mb-6">Learning</h2>
   <p>Berisi materi atau topik pembelajaran terbaru yang sedang dipelajari.</p>
+</section>
+
+<section id="ideas" class="py-20 text-center bg-gray-100" data-aos="fade-up">
+  <h2 class="text-3xl font-semibold mb-6">Ideas</h2>
+  <p>Berisi ide-ide kreatif dan project yang sedang dipikirkan atau dikembangkan.</p>
+</section>
+
+<section id="hobbies" class="py-20 text-center" data-aos="fade-up">
+  <h2 class="text-3xl font-semibold mb-6">Hobbies</h2>
+  <p>Bagian ini menampilkan hobi atau aktivitas favorit.</p>
+</section>
+
+<section id="contact" class="py-20 text-center bg-gray-100" data-aos="fade-up">
+  <h2 class="text-3xl font-semibold mb-6">Contact</h2>
+  <p>Bisa hubungi lewat email atau media sosial yang dicantumkan.</p>
+</section>
+
+<section id="gallery" class="py-20 text-center" data-aos="fade-up">
+  <h2 class="text-3xl font-semibold mb-6">Gallery</h2>
+  <p>MY GALLERY</p>
+  <a href="gallery.html" 
+     class="mt-4 inline-block px-6 py-3 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition">
+    Buka Gallery
+  </a>
 </section>
 Analisis : Setiap section diberi padding vertikal (py-20) agar layout rapi.Judul section
 dibuat menonjol (text-3xl font-semibold).Efek animasi ditambahkan melalui data-aos="fade-up",
@@ -80,4 +105,5 @@ container overflow-hidden rounded-xl shadow-md agar terlihat elegan dengan sudut
 Efek interaktif berupa hover zoom (hover:scale-110 transition-transform duration-300)
 membuatpengalaman pengguna lebih dinamis. Animasi tambahan data-aos="zoom-in"
 mempercantik saat gambar muncul di-scroll.
+
 
