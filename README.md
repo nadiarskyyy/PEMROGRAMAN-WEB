@@ -89,12 +89,3 @@ Materi utama di pertemuan ini:
 
 </body>
 </html>
-
-```
-# 🌐 Pertemuan 4 
-
-## 📖 Penjelasan
-Di pertemuan ini kita mulai menggabungkan HTML + CSS menjadi website portofolio sederhana.
-Website punya beberapa section: Home, Learning, Ideas, Hobbies, Contact, dan Gallery.Dengan 
-menambahkan fitur yang ada di Jobsheet serta gabungan fitur lainnya agar terlihat menarik
-
