@@ -6,6 +6,7 @@ Website ini terdiri dari dua halaman utama:
 - `index.html` → Halaman utama yang berisi beberapa section seperti Home, Learning, Ideas, Hobbies, dan Contact.  
 - `gallery.html` → Halaman galeri yang menampilkan kumpulan konten dengan animasi interaktif.  
 
+##Latihan
 ---
 
 ## 🔎 Analisis Kode
