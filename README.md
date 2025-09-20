@@ -25,7 +25,7 @@ Di dalam `<body>`, kita bisa menambahkan teks, judul, dan paragraf.
 
 ## Pertemuan 2 – Dasar HTML (Lanjutan)
 
-## 📖 Penjelasan
+### 📖 Penjelasan
 Pada pertemuan ini, kita belajar elemen HTML yang lebih kompleks untuk membuat halaman web interaktif dan terstruktur.  
 Materi utamanya meliputi:  
 - Formulir → digunakan untuk menerima input dari pengguna.  
@@ -52,9 +52,9 @@ Materi utamanya meliputi:
 </html>
 ```
 ---
-# 🎨 Pertemuan 3 – Dasar CSS
+## 🎨 Pertemuan 3 – Dasar CSS
 
-## 📖 Penjelasan
+### 📖 Penjelasan
 CSS (Cascading Style Sheets) digunakan untuk mengatur tampilan halaman web.  
 Dengan CSS kita bisa mengubah warna, ukuran font, jarak antar elemen, hingga membuat layout yang lebih menarik.  
 
@@ -66,7 +66,7 @@ Materi utama di pertemuan ini:
 
 ---
 
-## 💻 Contoh Kode 
+### 💻 Contoh Kode 
 ```html
 <!DOCTYPE html>
 <html lang="id">
@@ -92,9 +92,9 @@ Materi utama di pertemuan ini:
 ```
 ---
 
-### 📝 Pertemuan 4 - web portofolio CSS + Linkedln
+## 📝 Pertemuan 4 - web portofolio CSS + Linkedln
 
-## 📖 Penjelasan
+### 📖 Penjelasan
 Web portofolio menampilkan profil, keahlian, dan proyek seseorang secara online. Dengan CSS, tampilan menjadi menarik dan
 mudah dinavigasi, sementara tautan LinkedIn memudahkan pengunjung melihat profil profesional secara langsung, meningkatkan kredibilitas dan jaringan.
 
