@@ -89,3 +89,41 @@ Materi utama di pertemuan ini:
 
 </body>
 </html>
+```
+---
+
+### 📝 Pertemuan 4 - web portofolio CSS + Linkedln
+
+## 📖 Penjelasan
+Web portofolio menampilkan profil, keahlian, dan proyek seseorang secara online. Dengan CSS, tampilan menjadi menarik dan
+mudah dinavigasi, sementara tautan LinkedIn memudahkan pengunjung melihat profil profesional secara langsung, meningkatkan kredibilitas dan jaringan.
+
+---
+
+## 💻 Contoh Kode 
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Portofolio Nadia</title>
+<style>
+    body{text-align:center;font-family:Arial;margin:0;padding:20px;background:#f4f4f4;}
+    a{color:#0073b1;text-decoration:none;margin:0 5px;}
+    div{background:white;margin:10px auto;padding:10px;max-width:250px;border-radius:6px;}
+</style>
+</head>
+<body>
+    <h1>Nadia A.</h1>
+      <p>Web developer front-end & UI/UX</p>
+    <div>Website univ</div>
+    <div>Portfolio Interaktif</div>
+  <p><a href="mailto:email@example.com">Email</a> | 
+<a href="https://www.linkedin.com/in/nadiaaa/" target="_blank">LinkedIn</a></p>
+</body>
+</html>
+```
+
+---
+
+
